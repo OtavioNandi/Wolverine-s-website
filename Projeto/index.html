@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wolverine</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+</head>
+<body>
+	<header class="cabecalhoPrincipal">
+		<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+			<div class="container"> 
+				<h1 class="cabecalhoPrincipal-titulo">
+					<a href="#">Wolverine</a>
+				</h1>
+				<nav class="cabecalhoPrincipal-nav">
+					<a class="cabecalhoPrincipal-nav-link" href="#catalogo">Catálogo</a>
+					<a class="cabecalhoPrincipal-nav-link" href="#video">Vídeos</a>
+					<a class="cabecalhoPrincipal-nav-link" href="#text">História</a>
+					<a class="cabecalhoPrincipal-nav-link" href="#">Revistas</a>
+					<a class="cabecalhoPrincipal-nav-link cabecalhoPrincipal-nav-link-app" href="#">Outras Aparições</a>
+				</nav>
+			</div>
+	</header>
+	<main class="conteudoPrincipal" id="catalogo">
+		<div class="container-wrapper">
+			<h2 class="subtitulo">Catálogo</h2>
+				<button class="arrow-left control" aria-label="Previous Image"><img src="img/seta.png" width="60px" height="60px" style="filter: drop-shadow(0 0 4px #fff);"/></button>
+				<button class="arrow-right control" aria-label="Next Image"><img src="img/seta.png" width="60px" height="60px" style="filter: drop-shadow(0 0 4px #fff);"/></button>
+				<script async src="js/carousel.js"></script>
+					<div class="gallery-wrapper">
+						<div class="gallery">
+							<nav>
+								<ul class="conteudoPrincipal-catalogo">
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/xmen.jpg" style="margin-left: 50px;" class="item current-item"/><a href="#">X-Men</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/xmen2.jpg"class="item"/><a href="#">X-Men 2</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/xmen3.jpg" class="item"/><a href="#">X-Men 3: O Confronto Final</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/origins.jpg" class="item"/><a href="#">X-Men Origens: Wolverine</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/primeira.jpg" class="item"/><a href="#">X-Men: Primeira Classe</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/imortal.jpg" class="item"/><a href="#">Wolverine Imortal</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/dias.jpg" class="item"/><a href="#">X-Men: Dias de um Futuro Esquecido</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/logan_filme.jpg" class="item"/><a href="#">Logan</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/velho.jpg" class="item"/><a href="#">Wolverine: O Velho Logan</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/noir.jpg" class="item"/><a href="#">Wolverine: Noir</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/deadpool.jpg" class="item"/><a href="#">Deadpool: Três Homens em Conflito</a></li>
+									<li class="conteudoPrincipal-catalogo-link"><img src="img/historica.jpg" style="margin-right: 90px;" class="item"/><a href="#">Coleção Histórica Marvel</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+		</div>
+		
+		<section class="videoSobre" id="video">
+			<div class="container-video">
+				<iframe class="video" width="660" height="315" src="https://www.youtube.com/embed/3jp2s_eWl_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="videoSobre-sobre">
+					<h2 class="videoSobre-sobre-title">Canal Especial NERD</h2>
+					<ul class="videoSobre-sobre-list">
+						<li class="videoSobre-sobre-item">História completa de Logan, o Wolverine!</li>
+						<li class="videoSobre-sobre-item">Tudo sobre cultura Nerd</li>
+						<li class="videoSobre-sobre-item">Vídeos Semanais</li>
+					</ul>
+					<button class="videoSobre-button"><a href="https://www.youtube.com/channel/UCaPXY9etdN0ZWJZlaF9-OVg" target="_blank">Inscreva-se</a></button>
+				</div>
+			</div>
+
+			<div class="text-part" id="text">
+				<div class="text-about">
+					<h2 class="text-title">James Howlett - Logan</h2>
+					<p>A história de Logan é um pouco confusa, até mesmo para os grandes fãs da Marvel. Isso porque, como personagem perde a memória em determinado momento da sua história, tudo o que sabemos são as várias fases que aparecem nas HQs. Entretanto, sabe-se que Wolverine foi batizado como James Howlett. O mutante nasceu no Canadá, na segunda metade do século 19. O rapaz era filho ilegítimo de Thomas Logan, o qual acabou sendo morto de forma acidental pelo filho. Em seguida, ele fugiu, adotou o nome Logan e viveu parte da sua vida no meio das florestas.</p>
+					<p>Por fim, após 100 anos de sua vida nas matas, Logan acabou sendo recrutado pelo governo do Canadá para participar de um novo projeto, o Arma X. O personagem já havia alguns poderes. Dentre eles, Logan era capaz de projetar seus ossos para fora, formando garras. Além disso, ele possuía um poder rápido de cura.</p>
+					<p>No Arma X, adamantium, um metal indestrutível foi colocado no seu corpo, fazendo com que todos os seus ossos se tornassem o metal. Entretanto, a adição do metal em seu organismo fez com que Logan perdesse todas as suas memórias passadas.</p>
+					<p class="font">Fonte: segredosdomundo.r7.com/wolverine-logan-historia/</p>
+				</div>
+				<div class="area-imagem-wolverine">
+					<img class="imagem-wolverine" src="img/wolverine.png"/>
+				</div>
+			</div>
+			
+		</section>
+
+	</main>
+
+	<footer class="rodapePrincipal">
+		<section class="rodapePrincipal-patrocinadores">
+			<div class="container-rodape">
+				<ul class="rodapePrincipal-patrocinadores-list">
+					<li>
+						<a class="rodapePrincipal-patrocinadores-list-link" href="#">
+							<img src="img/marvel.png" width="100px" height="100%" style="filter: saturate(0%)">
+						</a>
+					</li>
+					<li>
+						<a class="rodapePrincipal-patrocinadores-list-link" href="#">
+							<img src="img/wolv-logo.png" width="100px" height="100%">
+						</a>
+					</li>
+					<li>
+						<a class="rodapePrincipal-patrocinadores-list-link" href="#">
+							<img src="img/logan-logo.png" width="100px" height="100%">
+						</a>
+					</li>
+				</ul>
+				<form class="rodapePrincipal-contatoForm" action="#">
+					<fieldset>
+						<legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Entre em contato conosco</legend>
+						<div class="rodapePrincipal-contatoForm-fieldset"> 
+							<input class="rodapePrincipal-contatoForm-emailInput" type="email" name="email-contato" id="email-contato">
+							<button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</section>
+	</footer>
+
+</body>
+</html>
